@@ -3,40 +3,50 @@
     "id": 1,
     "cover": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
     "title": "The Silent Echo",
-    "author-img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
-    "reading-time": 7,
+    "author_img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
+    "author": "Xboss",
+    "posted_date": "jan 5 2025",
+    "reading_time": 7,
     "hashtags": ["#Mystery", "#Thriller", "#Suspense"]
   },
   {
     "id": 2,
     "cover": "https://i.ibb.co.com/bMf6vv4b/brigitte-tohm-EAay7-Aj4jbc-unsplash.jpg",
     "title": "Whispers of the Wind",
-    "author-img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
-    "reading-time": 5,
+    "author_img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
+    "author": "Methu",
+    "posted_date": "Feb 20 2025",
+    "reading_time": 5,
     "hashtags": ["#Poetry", "#Inspiration", "#Nature"]
   },
   {
     "id": 3,
     "cover": "https://i.ibb.co.com/1f5R1g6L/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
     "title": "Realm of Shadows",
-    "author-img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
-    "reading-time": 12,
+    "author_img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
+    "author": "Methu Islam",
+    "posted_date": "Mar 4 2025",
+    "reading_time": 12,
     "hashtags": ["#Fantasy", "#Adventure", "#Magic"]
   },
   {
     "id": 4,
     "cover": "https://i.ibb.co.com/Hfy3g7BY/daria-nepriakhina-x-Y55b-L5m-ZAM-unsplash.jpg",
     "title": "Beyond the Horizon",
-    "author-img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
-    "reading-time": 9,
+    "author_img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
+    "author": "Methu Chowdhury",
+    "posted_date": "May 20 2002",
+    "reading_time": 9,
     "hashtags": ["#SciFi", "#Innovation", "#Future"]
   },
   {
     "id": 5,
     "cover": "https://i.ibb.co.com/F4mPdMDv/jess-bailey-q10-VITr-VYUM-unsplash.jpg",
     "title": "Letters Unsent",
-    "author-img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
-    "reading-time": 6,
+    "author_img": "https://i.ibb.co.com/rf6PCBc6/methu-edited.jpg",
+    "author": "Boss",
+    "posted_date": "Mar 4 2026",
+    "reading_time": 6,
     "hashtags": ["#Romance", "#Drama", "#Heartbreak"]
   }
 ]

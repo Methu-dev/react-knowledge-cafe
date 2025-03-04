@@ -1,13 +1,17 @@
 import React from 'react'
 import Header from './Components/Header/Header'
 import Blogs from './Components/Blogs/Blogs'
+import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Blogs />
-    </div>
+      <div className='md:flex'>
+        <Blogs />
+        <Bookmarks />
+      </div>
+    </>
   )
 }
 
