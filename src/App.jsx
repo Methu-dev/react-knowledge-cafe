@@ -5,16 +5,24 @@ import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
+
   const handleAddToBookmark = book =>{
-    console.log("yes click here");
-    
+    const newBokmarks = [...bookmarks, book]
+    setBookmarks(newBokmarks)  
   }
+
+  const handleMarkAsRead = time => {
+    const newReadingTime = readingTime + time;
+      setReadingTime(newReadingTime);
+      
+    }
   return (
     <>
       <Header />
       <div className='md:flex max-w-7xl mx-auto'>
-        <Blogs handleAddToBookmark={handleAddToBookmark}/>
-        <Bookmarks />
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}/>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}/>
       </div>
     </>
   )
