@@ -2,7 +2,7 @@ import React from 'react'
 import { LuBookmark } from 'react-icons/lu';
 
 function Blog({blog, handleAddToBookmark, handleMarkAsRead}) {
-    const {cover, title, author_img, reading_time, author, posted_date, hashtags} = blog;
+    const {id,cover, title, author_img, reading_time, author, posted_date, hashtags} = blog;
   return (
     <>
     <div className='mb-20'>
@@ -37,7 +37,7 @@ function Blog({blog, handleAddToBookmark, handleMarkAsRead}) {
                 hashtags.map((has, idx) => <span key={idx}><a href="">{has}</a></span>)
             }
         </p>
-        <button onClick={() => handleMarkAsRead(reading_time)} className='text-[#6047EC] underline font-bold cursor-pointer'>Mark As Read</button>
+        <button onClick={() => handleMarkAsRead(id,reading_time)} className='text-[#6047EC] underline font-bold cursor-pointer'>Mark As Read</button>
     </div>
     </div>
     </>
